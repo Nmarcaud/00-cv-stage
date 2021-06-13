@@ -1,0 +1,137 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+
+
+
+/* Border radius */
+.br-15 {
+    border-radius: 15px;
+}
+.br-20 {
+    border-radius: 20px;
+}
+
+/* Card */
+.card {
+    box-shadow: 2px 2px 15px rgba(0,0,0,.07); 
+    border-radius: 20px;
+}
+
+
+/* Cards color */
+/*.card-color-green {
+	background: linear-gradient(45deg, #C8F99F, #6FDFB2);
+}*/
+
+/* Vert */
+.card-color-green {
+	background: linear-gradient(130deg, #D9F7B3, #86E5B2);
+}
+/* Bleu */
+.card-color-blue {
+	background: linear-gradient(130deg, #B5E4F5, #9ABBFC);
+}
+/* Rouge */
+.card-color-rouge {
+	background: linear-gradient(130deg, #FFCFBA, #FF9E97);
+}
+/* Violet */
+.card-color-violet {
+	background: linear-gradient(130deg, #D7C4FC, #B5B0F7);
+}
+/* Jaune */
+.card-color-jaune {
+	background: linear-gradient(130deg, #FFE8B2, #FBD1A3);
+}
+/* Noir */
+.card-color-dark {
+	background: linear-gradient(130deg, #A9B1BC, #424953);
+}
+
+
+/* Photo de profil */
+#profil-picture {
+	border: 0.3em solid white; 
+	border-radius: 200px;
+
+}
+
+/* Link */
+a {
+	text-decoration: none;
+	color: #E5E8E7;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+
+/* Test de Grid */
+
+.grid-formation {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+@media screen and (min-width:768px) {
+	.grid-formation {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width:992px) {
+	.grid-formation {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.grid-formation {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+
+
+.grid-interets {
+	display:grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+@media screen and (min-width:768px) {
+	.grid-interets {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width:992px) {
+	.grid-interets {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.grid-interets {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+
+.grid-footer {
+	display:grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+
+@media screen and (min-width:992px) {
+	.grid-footer {
+		grid-template-columns: 2fr 1fr;
+	}
+}
